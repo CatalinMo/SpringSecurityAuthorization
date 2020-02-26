@@ -12,17 +12,4 @@ public class Authorities {
     private String username;
     private String authority;
 
-    @OneToOne
-    @JoinColumn(name = "users_id")
-    private Users users;
-
-
-    public Authorities(String username, String authority, Users users) {
-        this.username = username;
-        this.authority = authority;
-        this.users = users;
-    }
-
-    public Authorities() {
-    }
 }

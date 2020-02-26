@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.*;
 import ro.fortech.userregistration.entities.Users;
 import ro.fortech.userregistration.services.UserService;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/user")
 public class UsersController {
@@ -18,8 +20,8 @@ public class UsersController {
     }
 
     @GetMapping("/")
-    public void getUsers(){
-        userService.getAllUsers();
+    public List<Users> getUsers(){
+        return userService.getAllUsers();
     }
 
     @PostMapping("/")

@@ -2,10 +2,7 @@ package ro.fortech.userregistration.entities;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -18,7 +15,7 @@ public class Users {
     private String password;
     private boolean enabled;
 
-    @OneToOne(mappedBy = "users")
+    @OneToOne(cascade = CascadeType.ALL)
     private Authorities authorities;
 
 
