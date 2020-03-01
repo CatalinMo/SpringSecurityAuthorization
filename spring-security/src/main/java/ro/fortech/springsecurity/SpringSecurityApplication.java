@@ -6,11 +6,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import ro.fortech.springsecurity.entity.EntityUser;
 import ro.fortech.springsecurity.repository.EntityUserRepository;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackageClasses = EntityUserRepository.class)
+@EnableResourceServer
 public class SpringSecurityApplication {
 
 	public static void main(String[] args) {
