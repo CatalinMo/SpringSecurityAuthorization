@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a10b8065-6fa8-4162-ba75-b1204f28a719" name="Default Changelist" comment="" />
+    <list default="true" id="a10b8065-6fa8-4162-ba75-b1204f28a719" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../App1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../App1/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -60,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringSecurityAuthorization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -88,6 +90,8 @@
       <workItem from="1582621405893" duration="9037000" />
       <workItem from="1582706163247" duration="18026000" />
       <workItem from="1582798538082" duration="7981000" />
+      <workItem from="1583062580618" duration="698000" />
+      <workItem from="1583069956387" duration="586000" />
     </task>
     <servers />
   </component>
@@ -111,9 +115,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2688" y="172" width="865" height="654" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582721375173" />
-    <state x="2721" y="432" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582798588119">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="534" y="394" width="304" height="197" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583062647148">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="534" y="394" width="304" height="197" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.984@0.0.1280.984" timestamp="1583062647148" />
     <state x="2721" y="432" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582798588119" />
     <state x="2552" y="0" width="636" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582721093717">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -171,9 +176,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.2.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582728838853" />
-    <state x="2363" y="116" width="1024" height="845" key="SettingsEditor" timestamp="1582798581400">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="295" y="106" width="916" height="770" key="SettingsEditor" timestamp="1583062603800">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="295" y="106" width="916" height="770" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1583062603800" />
     <state x="2363" y="116" width="1024" height="845" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582798581400" />
     <state x="2766" y="436" width="377" height="230" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582723347029">
       <screen x="1920" y="0" width="1920" height="1080" />

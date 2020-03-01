@@ -7,23 +7,37 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 @Configuration
-@EnableWebSecurity
+//@EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+//        http.antMatcher("/**").authorizeRequests()
+//                .antMatchers("/admin")
+//                .hasRole("ADMIN")
+//                .antMatchers("/app3")
+//                .hasRole("ADMIN")
+//                .antMatchers("/app1", "/app2")
+//                .hasAnyRole("USER, ADMIN")
+//                .antMatchers("/user")
+//                .hasAnyRole("USER","ADMIN")
+//                .antMatchers("/")
+//                .permitAll()
+//                .and()
+//                .oauth2Login();
+//    }
+
+
+
     @Override
-    protected void configure(HttpSecurity http) throws Exception {
+    public void configure(HttpSecurity http) throws Exception {
         http.antMatcher("/**").authorizeRequests()
-                .antMatchers("/admin")
-                .hasRole("ADMIN")
-                .antMatchers("/app3")
-                .hasRole("ADMIN")
-                .antMatchers("/app1", "/app2")
-                .hasAnyRole("USER, ADMIN")
-                .antMatchers("/user")
-                .hasAnyRole("USER","ADMIN")
-                .antMatchers("/")
-                .permitAll()
+                .antMatchers( "/login**").permitAll()
+                .anyRequest().authenticated()
                 .and()
                 .oauth2Login();
     }
-}
+
+    }
+
+
